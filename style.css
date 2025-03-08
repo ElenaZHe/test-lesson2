@@ -31,7 +31,7 @@ header span {
     /* Стили для первой секции */
     height: 1024px;
     background-color: #FAFAFF;
-    padding: 60px 1px;
+    padding: 60px 0px;
 }
 
 .main-title {
@@ -58,7 +58,7 @@ header span {
 .about-section {
     /* Стили для второй секции */  
     background-color: #FFFFFF;
-    padding: 100px 1px;
+    padding: 100px 0px;
 }
 
 select {
@@ -86,14 +86,14 @@ select {
     list-style: none;
     font-weight: 400;
     list-style-image: url(./assets/solar_map-arrow-up-bold.svg);
-    padding-left: 20px;
+    padding: 0px 20px;
     font-family: inherit;
 }
 
 .books-list {
     /* Стили для нумерованного списка во второй секции */
     font-weight: 400;
-    padding-left: 20px;
+    padding: 0px 20px;
     font-size: 16px;
     font-family: inherit;
 }
@@ -117,6 +117,7 @@ select {
     height: 36px;
     padding: 9px 12px;
     font-weight: 400; 
+    font-size: 16px;
     font-family: inherit;
 
 }
@@ -151,7 +152,7 @@ table {
 
 th, td {
     /* Стили для ячеек таблицы */
-    padding: 10px 11px 15px;
+    padding: 12px 15px;
 }
 
 footer {
@@ -159,14 +160,14 @@ footer {
     height: 70px;
     top: 1977px;
     background-color: #A3A7FF4D;
-    padding: 26px 0px 27px 1px;
+    padding: 26px 0px;
 
 }
 
 .footer-link {
     /* Стили для футера */
-    width: 78px;
-    height: 17px;
+    font-weight: 400px;
+    font-size: 14px;
     top: 2003px;
     left: 1px;
     color: #2965F1;
